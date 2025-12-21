@@ -1,0 +1,43 @@
+SELECT - What information
+FROM - Where to get
+ 
+SELECT is what, FROM is where
+ 
+WHERE - The smart filter
+Price < 100
+Brand = Nike
+ 
+Condition -> City=London,  Effect -> Only London Customers
+Amount > 1000, Effect -> High value Orders
+ 
+ORDER BY - Arrange the Results
+Product    Sales
+Laptop     800
+Phone      500
+ 
+Sort Type    Meaning
+ASC           Small -> Big
+DESC          Big -> Small
+ 
+LIMIT - ALL RESULTS -> First 5 Rows only (LIMIT)
+ 
+Concept Flow
+ 
+FROM -> Pick Table
+WHERE -> Filter Rows
+SELECT -> Choose Columns
+ORDER BY -> Rank Results
+LIMIT -> Control Output
+ 
+Mental Model
+ 
+DATABASE
+|- TABLES
+   |-Rows (Records)
+   |-Columns (attributes)
+   |-Primary Key (identity)
+   |-Foreign Key (relationship)
+ 
+QUERY
+|-SELECT->FROM->WHERE->ORDER BY->LIMIT
+ 
